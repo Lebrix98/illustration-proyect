@@ -1,0 +1,1 @@
+export { default as imgBanner } from './bannerImg.webp'
