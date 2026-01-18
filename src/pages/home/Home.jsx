@@ -1,7 +1,7 @@
 import React from "react";
-import { Footer, Navbar } from "./../../components";
-import "./styles.css";
+import { About, Footer, Navbar, Proyect } from "./../../components";
 import { Banner } from "../../atoms";
+import "./styles.css";
 
 export const Home = () => {
   return (
@@ -12,7 +12,14 @@ export const Home = () => {
           <Banner />
         </section>
       </header>
-      <main></main>
+      <main>
+        <section id="1">
+          <About />
+        </section>
+        <section id="2">
+          <Proyect />
+        </section>
+      </main>
       <footer>
         <Footer />
       </footer>
